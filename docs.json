@@ -1,101 +1,96 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "Mint Starter Kit",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
-        "groups": [
-          {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "willow",
+    "name": "Entropi theme",
+    "colors": {
+      "primary": "#000000",
+      "light": "#FFFFFF",
+      "dark": "#000000"
+    },
+    "favicon": "favicon.svg",
+    "navigation": {
+      "tabs": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "tab": "Team Guide",
+          "groups": [
+            {
+              "group": "Getting Started",
+              "pages": [
+                "onboarding/welcome",
+                "onboarding/setup",
+                "onboarding/first-steps"
+              ]
+            },
+            {
+              "group": "Team Standards",
+              "pages": [
+                "standards/coding-guidelines",
+                "standards/git-workflow",
+                "standards/code-review",
+                "standards/deployment"
+              ]
+            }
+          ]
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "tab": "Services",
+          "groups": [
+            {
+              "group": "Architecture",
+              "pages": [
+                "architecture/overview",
+                "architecture/service-communication",
+                "architecture/security"
+              ]
+            },
+            {
+              "group": "Service Documentation",
+              "pages": [
+                "services/service-a/overview",
+                "services/service-a/setup",
+                "services/service-a/api",
+                "services/service-b/overview",
+                "services/service-b/setup",
+                "services/service-b/api"
+              ]
+            }
+          ]
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "tab": "Resources",
+          "groups": [
+            {
+              "group": "Guides",
+              "pages": [
+                "guides/troubleshooting",
+                "guides/best-practices",
+                "guides/monitoring"
+              ]
+            },
+            {
+              "group": "Team Resources",
+              "pages": [
+                "resources/tools",
+                "resources/environments",
+                "resources/access-management"
+              ]
+            }
+          ]
         }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+      ],
+      "global": {
+        "anchors": [
+          {
+            "anchor": "Community",
+            "href": "https://discord.gg/BwpRvf8q",
+            "icon": "discord"
+          },
+          {
+            "anchor": "AI Research Blog",
+            "href": "https://votre-site-blog.com",
+            "icon": "newspaper"
+          }
+        ]
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
     }
   }
-}
